@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1 id="title">Game.</h1></header>
+
+    <main>
+     <div id="selections">
+      <div>
+        <h1 class="gtext" id="pltext">Player:</h1>
+        <h1 class="gtext" id="comtext">Computer:</h1>
+        <h1 class="gtext" id="retext">Result:</h1>
+   
+        <button class="restore" onclick="reset()">🔄</button>  
+        <button class="choice" >✊</button>
+        <button class="choice" >✋</button>
+        <button class="choice">✌️</button>
+     </div>
+</div>
+
+<div class="results">
+   <div>
+     <div id="letter">You</div>
+      <span data-value="0" class="rescore" id="wins">0</span>
+   </div>
+
+   <div>
+      <div id="letter">Computer</div>
+      <span data-value="0" class="rescore" id="comwin">0</span>
+   </div>
+   <div>
+    <div id="letter">Ties</div>
+    <span data-value="0" class="rescore" id="ties">0</span>
+ </div>
+  </div>
+    </main>
+    
+</body>
+<script src="game.js"></script>
+</html>

@@ -1,0 +1,172 @@
+body{
+    width: 100%;
+   margin: 3px 3px 3px 3px;
+    font-family: 'Times New Roman';
+    background: linear-gradient(to right, ivory,silver);
+}
+
+#title{
+    width: 99.2%;
+    background-color: brown;
+    color: rgb(253, 218, 180) ;
+    text-align: center;
+    margin: 3px 3px 3px 3px;
+  }  
+
+  #selections{
+    margin-top: 10%;
+    margin-left: 8.5%;
+    color: brown;
+   border: none;
+   border-radius: 25px;
+   padding: 10px;
+   text-align: center;
+   width: 320px;
+   height: 327px;
+   background: linear-gradient(to right, rgb(153, 152, 152), ivory);
+   box-shadow: rgb(91, 90, 90) 5px 6px 8px;
+  }
+  #selections:hover{
+    background: linear-gradient(to right, ivory, rgb(153, 152, 152));
+    color: rgb(196, 5, 5);
+  }
+
+  .restore{
+    box-shadow: 5px 6px 8px;
+    background: linear-gradient(to right, whitesmoke, silver);
+     border: none;
+     border-radius: 10px;
+     margin: 10px;
+    font-size: 40px ;
+    cursor: pointer;
+  }
+
+  .restore:hover{
+    background: linear-gradient(to right, silver, rgb(98, 97, 97));
+  }
+
+.choice{
+    box-shadow: 5px 6px 8px;
+    background: linear-gradient(to right, whitesmoke, silver);
+     border: none;
+     border-radius: 10px;
+     margin: 10px;
+    font-size: 40px ;
+}
+.choice:hover{
+    background: linear-gradient(to right, silver, rgb(98, 97, 97));
+    font-size: 45px ;
+  }
+
+.results{
+    padding-top: 10px;
+    box-shadow: rgb(91, 90, 90) 5px 6px 8px;
+    color: brown;
+    margin-left: 11.1%;
+    margin-top: 20px;
+   font-size: 30px;
+   border: none;
+   border-radius: 25px;
+   padding: 10px;
+   text-align: center;
+   width: 306px;
+   height: 200px;
+   background: linear-gradient(to right, ivory, rgb(153, 152, 152));
+}
+
+.results:hover{
+    background: linear-gradient(to right, rgb(153, 152, 152), ivory);
+    color: rgb(196, 5, 5);
+}
+
+
+@media screen and (min-width: 700px) and (max-width:1023px){
+    /*style for TABLE*/
+   #selections{
+    margin-top: 10%;
+    margin-left: 13%;
+   padding: 10px;
+   width: 500px;
+   height: 327px;
+   font-size: 17px;
+    }
+
+  .restore{
+     margin: 10px;
+    font-size: 45px ;
+    cursor: pointer;
+  }
+
+  .restore:hover{
+    font-size: 50px ;
+  }
+
+.choice{
+     margin: 10px;
+    font-size: 45px ;
+}
+.choice:hover{
+    font-size: 50px ;
+  }
+
+.results{
+    padding-top: 10px;
+    margin-left: 26.1%;
+    margin-top: 20px;
+   font-size: 30px;
+   padding: 10px;
+   text-align: center;
+   width: 306px;
+   height: 280px;
+}
+
+#letter{
+    padding: 5px;
+    font-size: 40px;
+}
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Styles for desktop devices */
+    #selections{
+        margin-top: 3%;
+        margin-left: 28%;
+       padding: 10px;
+       width: 700px;
+       height: 390px;
+       font-size: 20px;
+        }
+    
+      .restore{
+         margin: 10px;
+        font-size: 55px ;
+      }
+    
+      .restore:hover{
+        font-size: 60px ;
+      }
+    
+    .choice{
+         margin: 10px;
+        font-size: 55px ;
+    }
+    .choice:hover{
+        font-size: 60px ;
+      }
+    
+    .results{
+        padding-top: 8px;
+        margin-left: 40%;
+        margin-top: 50px;
+       font-size: 30px;
+       padding: 10px;
+       text-align: center;
+       width: 306px;
+       height: 302px;
+    }
+    
+    #letter{
+        padding: 5px;
+        font-size: 45px;
+    }
+}
