@@ -17,8 +17,8 @@ body{
     margin-top: 10%;
     margin-left: 8.5%;
     color: brown;
-   border: none;
-   border-radius: 25px;
+    border: double 1px black;
+    border-radius: 25px;
    padding: 10px;
    text-align: center;
    width: 320px;
@@ -34,8 +34,8 @@ body{
   .restore{
     box-shadow: 5px 6px 8px;
     background: linear-gradient(to right, whitesmoke, silver);
-     border: none;
-     border-radius: 10px;
+    border: double 1px;
+    border-radius: 10px;
      margin: 10px;
     font-size: 40px ;
     cursor: pointer;
@@ -48,7 +48,7 @@ body{
 .choice{
     box-shadow: 5px 6px 8px;
     background: linear-gradient(to right, whitesmoke, silver);
-     border: none;
+     border: double 1px;
      border-radius: 10px;
      margin: 10px;
     font-size: 40px ;
@@ -65,7 +65,7 @@ body{
     margin-left: 11.1%;
     margin-top: 20px;
    font-size: 30px;
-   border: none;
+   border: double 1px black;
    border-radius: 25px;
    padding: 10px;
    text-align: center;

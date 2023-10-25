@@ -46,39 +46,44 @@ function comTurn(){
 
 function checkWinner(){
     if(play == com){
-    ties.innerHTML = parseInt(ties.innerHTML) + 1;
+
+        ties.innerHTML = parseInt(ties.innerHTML) + 1;
     return "Is a Tie, Try Again!!!"
 }
 
-else if (com == "✊" && play == "✋"){
-    wins.innerHTML = parseInt(wins.innerHTML) + 1;
-   return "You Win!!!"
-}
-
-else if (com == "✋" && play == "✊"){
-    comwin.innerHTML = parseInt(comwin.innerHTML) + 1;
-     return "You Lose!!!"
-}
-
-else if (com == "✋" &&  play == "✌️"){
-   
-    wins.innerHTML = parseInt(wins.innerHTML) + 1;
-    return "You Win!!!" 
-}
-
-else if (com == "✌️" && play == "✋"){
-    comwin.innerHTML = parseInt(comwin.innerHTML) + 1;
-     return "You Lose!!!"
-}
-
-else if (com == "✌️" && play == "✊"){
-    
-    wins.innerHTML = parseInt(wins.innerHTML) + 1;
+    else if (com == "✊" && play == "✋"){
+        
+        wins.innerHTML = parseInt(wins.innerHTML) + 1;
     return "You Win!!!"
 }
 
-else if  (com == "✊" && play == "✌️"){
-comwin.innerHTML = parseInt(comwin.innerHTML) + 1;
- return "You Lose!!!"
+    else if (com == "✋" &&  play == "✌️"){
+   
+        wins.innerHTML = parseInt(wins.innerHTML) + 1;
+    return "You Win!!!" 
+}
+
+    else if (com == "✌️" && play == "✊"){
+    
+        wins.innerHTML = parseInt(wins.innerHTML) + 1;
+    return "You Win!!!"
+}
+
+    while (com == "✋" && play == "✊"){
+
+       comwin.innerHTML = parseInt(comwin.innerHTML) + 1;
+    return "You Lose!!!"
+}
+
+    if (com == "✌️" && play == "✋"){
+
+        comwin.innerHTML = parseInt(comwin.innerHTML) + 1;
+    return "You Lose!!!"
+}
+
+    else if  (com == "✊" && play == "✌️"){
+
+        comwin.innerHTML = parseInt(comwin.innerHTML) + 1;
+    return "You Lose!!!"
 }
 }
